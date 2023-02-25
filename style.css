@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 70vw;
+  height: 80vh;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 35px;
+  background: linear-gradient(225deg, #e6e6e6, #ffffff);
+  box-shadow:  -35px 35px 40px #a1a1a1,
+                35px -35px 40px #ffffff;
+}
+
+header ul{
+  list-style-type: none;
+  display: flex;
+  margin: 4.5rem 0rem;
+  flex-direction: row;
+  font-size: 3rem;  
+}
+
+.colon {
+  font-size: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+section {
+  line-height: 3rem;
+  width: 70%;
+}
+
+fieldset {
+  padding: 2rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4rem;
+  height: 25vh;
+  border: 1px solid rgba(0, 0, 0, 0.258);
+  border-radius: 5px;
+  background: linear-gradient(225deg, #ffffff, #e6e6e6);
+  box-shadow:  -35px 35px 100px #a1a1a1,
+                35px -35px 100px #ffffff;
+}
+
+form {
+  text-align: center;
+}
+p {
+  text-align: start;
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  width: 9rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+aside button {
+  width: 70%;
+}
+
+#login:hover{
+  background-color: #ffffff;
+}
