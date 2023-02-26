@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/javascript/scripts.js" defer></script>
 </head>
 <body>
     <main>
@@ -18,14 +18,14 @@
                     </li>
                     <li class="colon">|</li>
                     <li>
-                        <a href="signup.html">Sign Up</a>
+                        <a href="/pages/signup.html">Sign Up</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <section>
             <article>
-                <form action="" method="post">
+                <form>
                     <fieldset>
                         <legend>Login Details</legend>
                         <div>
@@ -39,12 +39,16 @@
                             </label>
                         </div>
                     </fieldset>
-                    <button type="submit" id="login">Login</button>
+                    <button type="button" id="login">Login</button>
                     <p>If you forget your password: Click here!</p>
                 </form>
             </article>
             <aside>
-                <button type="submit" id="google-login">Login With Google</button>
+                <button type="submit" id="google-login" >
+                    <img src="images/google-logo-250.png" alt="google-logo" id="google-logo">
+                    <p class="absolute">Login With Google</p>
+                    <img src="images/splash-color.png" alt="splash-color" id="splash">
+                </button>
                 <button type="submit" id="github-login">Login With GitHub</button>
             </aside>
         </section>
